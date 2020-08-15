@@ -1,6 +1,8 @@
 # algiorgio_infra
 algiorgio Infra repository
 
+# Homework #5
+
 
 1.  Connect to internal host with one command from working host:
 
@@ -56,4 +58,22 @@ Travis Information Data
 ```
 bastion_IP = 130.193.48.195
 someinternalhost_IP = 10.130.0.26
+```
+
+
+# Homework #6
+
+1. Create files:
+   1. ``install_ruby.sh`` with Ruby installation routine
+   2. ``install_mongodb.sh`` with Mongo DB installation routine
+   3. ``deploy.sh`` with project downloading and running routine
+2. Created ``ycmeta.yaml``, containing user's metadata for required instance **reddit-app**:
+3. Created ``build.sh`` script, containing command **yc** with required parameters to create instance **reddit-app**
+
+
+
+Travis Information Data
+```
+testapp_IP = 84.201.157.99
+testapp_port = 9292
 ```
